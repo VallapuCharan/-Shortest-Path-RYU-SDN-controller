@@ -1,0 +1,638 @@
+mininet@mininetvm:~$ cd Desktop
+mininet@mininetvm:~/Desktop$ sudo ryu-manager dijkstra.py --observe-links
+[sudo] password for mininet: 
+loading app dijkstra.py
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app dijkstra.py of SimpleSwitch13
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.controller.ofp_handler of OFPHandler
+packet in 7 2e:27:33:bb:05:e2 33:33:00:00:00:02 3
+flood!
+packet in 11 7a:18:1a:de:f2:4b ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 3 02:30:18:4b:01:6e 33:33:00:00:00:02 1
+flood!
+packet in 4 46:28:9c:3c:3d:fe 33:33:00:00:00:02 1
+flood!
+packet in 11 7a:18:1a:de:f2:4b ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 11 7a:18:1a:de:f2:4b ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 6 ae:76:57:9f:1b:6c 33:33:00:00:00:fb 2
+flood!
+packet in 5 66:2c:2e:b1:f9:d6 33:33:00:00:00:fb 2
+flood!
+packet in 6 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 5 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 3
+flood!
+packet in 3 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 10 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 7 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 3
+flood!
+packet in 8 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 2 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 11 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 2
+flood!
+packet in 4 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 9 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 1
+flood!
+packet in 1 02:c4:c2:9d:15:c6 33:33:00:00:00:fb 2
+flood!
+packet in 6 36:67:a2:b0:77:bd 33:33:00:00:00:fb 4
+flood!
+packet in 3 36:67:a2:b0:77:bd 33:33:00:00:00:fb 1
+flood!
+packet in 10 36:67:a2:b0:77:bd 33:33:00:00:00:fb 1
+flood!
+packet in 5 36:67:a2:b0:77:bd 33:33:00:00:00:fb 3
+flood!
+packet in 8 36:67:a2:b0:77:bd 33:33:00:00:00:fb 1
+flood!
+packet in 2 36:67:a2:b0:77:bd 33:33:00:00:00:fb 1
+flood!
+packet in 1 36:67:a2:b0:77:bd 33:33:00:00:00:fb 2
+flood!
+packet in 9 36:67:a2:b0:77:bd 33:33:00:00:00:fb 1
+flood!
+packet in 7 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 11 46:e5:d5:c7:89:57 33:33:00:00:00:fb 2
+flood!
+packet in 4 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 6 46:e5:d5:c7:89:57 33:33:00:00:00:fb 4
+flood!
+packet in 3 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 5 46:e5:d5:c7:89:57 33:33:00:00:00:fb 3
+flood!
+packet in 10 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 9 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 1 46:e5:d5:c7:89:57 33:33:00:00:00:fb 2
+flood!
+packet in 8 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 2 46:e5:d5:c7:89:57 33:33:00:00:00:fb 1
+flood!
+packet in 8 96:49:ef:65:5b:bc 33:33:00:00:00:02 1
+flood!
+packet in 9 a2:21:0e:cc:59:fe 33:33:00:00:00:02 2
+flood!
+packet in 11 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 5 1a:af:77:8f:a7:72 33:33:00:00:00:02 5
+flood!
+packet in 6 1a:af:77:8f:a7:72 33:33:00:00:00:02 3
+flood!
+packet in 8 1a:af:77:8f:a7:72 33:33:00:00:00:02 1
+flood!
+packet in 7 7a:18:1a:de:f2:4b 33:33:00:00:00:02 5
+flood!
+packet in 5 a2:21:0e:cc:59:fe 33:33:00:00:00:02 5
+flood!
+packet in 1 1a:af:77:8f:a7:72 33:33:00:00:00:02 2
+flood!
+packet in 2 1a:af:77:8f:a7:72 33:33:00:00:00:02 1
+flood!
+packet in 7 1a:af:77:8f:a7:72 33:33:00:00:00:02 3
+flood!
+packet in 8 a2:21:0e:cc:59:fe 33:33:00:00:00:02 1
+flood!
+packet in 6 7a:18:1a:de:f2:4b 33:33:00:00:00:02 4
+flood!
+packet in 6 a2:21:0e:cc:59:fe 33:33:00:00:00:02 3
+flood!
+packet in 2 a2:21:0e:cc:59:fe 33:33:00:00:00:02 1
+flood!
+packet in 10 1a:af:77:8f:a7:72 33:33:00:00:00:02 1
+flood!
+packet in 1 a2:21:0e:cc:59:fe 33:33:00:00:00:02 2
+flood!
+packet in 4 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 3 1a:af:77:8f:a7:72 33:33:00:00:00:02 1
+flood!
+packet in 11 1a:af:77:8f:a7:72 33:33:00:00:00:02 2
+flood!
+packet in 3 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 3 a2:21:0e:cc:59:fe 33:33:00:00:00:02 1
+flood!
+packet in 7 a2:21:0e:cc:59:fe 33:33:00:00:00:02 3
+flood!
+packet in 10 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 10 a2:21:0e:cc:59:fe 33:33:00:00:00:02 1
+flood!
+packet in 4 1a:af:77:8f:a7:72 33:33:00:00:00:02 1
+flood!
+packet in 5 7a:18:1a:de:f2:4b 33:33:00:00:00:02 3
+flood!
+packet in 5 3e:7b:33:24:d3:18 33:33:00:00:00:fb 3
+flood!
+packet in 1 7a:18:1a:de:f2:4b 33:33:00:00:00:02 2
+flood!
+packet in 2 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 4 a2:21:0e:cc:59:fe 33:33:00:00:00:02 1
+flood!
+packet in 9 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 8 7a:18:1a:de:f2:4b 33:33:00:00:00:02 1
+flood!
+packet in 11 a2:21:0e:cc:59:fe 33:33:00:00:00:02 2
+flood!
+packet in 8 3e:7b:33:24:d3:18 33:33:00:00:00:fb 1
+flood!
+packet in 9 3e:7b:33:24:d3:18 33:33:00:00:00:fb 1
+flood!
+packet in 2 3e:7b:33:24:d3:18 33:33:00:00:00:fb 1
+flood!
+packet in 1 3e:7b:33:24:d3:18 33:33:00:00:00:fb 2
+flood!
+packet in 1 de:ec:fb:49:36:b2 33:33:00:00:00:fb 2
+flood!
+packet in 3 02:30:18:4b:01:6e 33:33:00:00:00:fb 1
+flood!
+packet in 5 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 6 4a:81:2c:92:55:c4 33:33:00:00:00:fb 3
+flood!
+packet in 8 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 2 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 9 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 10 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 3 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 7 4a:81:2c:92:55:c4 33:33:00:00:00:fb 3
+flood!
+packet in 11 4a:81:2c:92:55:c4 33:33:00:00:00:fb 2
+flood!
+packet in 4 4a:81:2c:92:55:c4 33:33:00:00:00:fb 1
+flood!
+packet in 8 96:49:ef:65:5b:bc 33:33:00:00:00:fb 1
+flood!
+packet in 6 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 6
+flood!
+packet in 2 b6:88:9c:8e:87:e9 33:33:00:00:00:fb 1
+flood!
+packet in 3 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 1
+flood!
+packet in 7 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 3
+flood!
+packet in 5 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 3
+flood!
+packet in 8 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 1
+flood!
+packet in 2 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 1
+flood!
+packet in 11 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 2
+flood!
+packet in 4 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 1
+flood!
+packet in 1 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 2
+flood!
+packet in 9 3a:f8:79:bc:f1:19 33:33:00:00:00:fb 1
+flood!
+packet in 6 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 3
+flood!
+packet in 3 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 1
+flood!
+packet in 10 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 1
+flood!
+packet in 7 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 3
+flood!
+packet in 4 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 1
+flood!
+packet in 11 46:d1:9b:f9:b3:ef 33:33:00:00:00:fb 2
+flood!
+packet in 5 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 4
+flood!
+packet in 6 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 3
+flood!
+packet in 9 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 1
+flood!
+packet in 2 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 1
+flood!
+packet in 1 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 2
+flood!
+packet in 3 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 1
+flood!
+packet in 7 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 3
+flood!
+packet in 10 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 1
+flood!
+packet in 11 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 2
+flood!
+packet in 4 9a:e8:f0:10:ce:b9 33:33:00:00:00:fb 1
+flood!
+packet in 4 46:28:9c:3c:3d:fe 33:33:00:00:00:fb 1
+flood!
+packet in 7 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 2
+flood!
+packet in 6 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 4
+flood!
+packet in 11 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 2
+flood!
+packet in 3 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 1
+flood!
+packet in 10 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 1
+flood!
+packet in 5 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 3
+flood!
+packet in 8 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 1
+flood!
+packet in 9 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 1
+flood!
+packet in 1 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 2
+flood!
+packet in 2 62:ef:94:7a:6f:d8 33:33:00:00:00:fb 1
+flood!
+packet in 7 2e:27:33:bb:05:e2 33:33:00:00:00:fb 3
+flood!
+packet in 11 2e:27:33:bb:05:e2 33:33:00:00:00:fb 2
+flood!
+packet in 4 2e:27:33:bb:05:e2 33:33:00:00:00:fb 1
+flood!
+packet in 1 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 5 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 6 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 3
+flood!
+packet in 9 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 2 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 8 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 3 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 10 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 7 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 3
+flood!
+packet in 4 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 1
+flood!
+packet in 11 da:ce:97:3e:e1:eb ff:ff:ff:ff:ff:ff 2
+flood!
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+defaultdict(<function <lambda> at 0x7fc12804e7d0>, {})
+defaultdict(<function <lambda> at 0x7fc12804e8c0>, {})
+defaultdict(<function <lambda> at 0x7fc12804e9b0>, {})
+defaultdict(<function <lambda> at 0x7fc12804eaa0>, {})
+defaultdict(<function <lambda> at 0x7fc12804eb90>, {})
+defaultdict(<function <lambda> at 0x7fc12804ec80>, {})
+defaultdict(<function <lambda> at 0x7fc12804ed70>, {})
+defaultdict(<function <lambda> at 0x7fc12804ee60>, {})
+defaultdict(<function <lambda> at 0x7fc12804ef50>, {})
+defaultdict(<function <lambda> at 0x7fc12524a0c8>, {})
+defaultdict(<function <lambda> at 0x7fc12524a1b8>, {})
+defaultdict(<function <lambda> at 0x7fc12558bcf8>, {'00-00-00-00-00-011': defaultdict(<function <lambda> at 0x7fc12524a230>, {'00-00-00-00-00-03': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-011': (0, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-010': defaultdict(<function <lambda> at 0x7fc12524a140>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-010': (0, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-08': defaultdict(<function <lambda> at 0x7fc12804eed8>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (0, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-09': defaultdict(<function <lambda> at 0x7fc12524a050>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (0, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-01': defaultdict(<function <lambda> at 0x7fc12804e848>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (0, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-02': defaultdict(<function <lambda> at 0x7fc12804e938>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (0, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-03': defaultdict(<function <lambda> at 0x7fc12804ea28>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (0, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-04': defaultdict(<function <lambda> at 0x7fc12804eb18>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (0, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-05': defaultdict(<function <lambda> at 0x7fc12804ec08>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (0, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-06': defaultdict(<function <lambda> at 0x7fc12804ecf8>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (0, None), '00-00-00-00-00-07': (None, None)}), '00-00-00-00-00-07': defaultdict(<function <lambda> at 0x7fc12804ede8>, {'00-00-00-00-00-011': (None, None), '00-00-00-00-00-010': (None, None), '00-00-00-00-00-08': (None, None), '00-00-00-00-00-09': (None, None), '00-00-00-00-00-01': (None, None), '00-00-00-00-00-02': (None, None), '00-00-00-00-00-03': (None, None), '00-00-00-00-00-04': (None, None), '00-00-00-00-00-05': (None, None), '00-00-00-00-00-06': (None, None), '00-00-00-00-00-07': (0, None)})})
+out_port: 2
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 2
+packet in 5 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 3
+packet in 6 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 4
+packet in 7 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 5
+packet in 11 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 2
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 1
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 2
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 7 da:d1:ef:3c:29:59 33:33:00:00:00:fb 5
+flood!
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 6 da:d1:ef:3c:29:59 33:33:00:00:00:fb 4
+flood!
+packet in 4 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 2
+packet in 3 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 10 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 5 da:d1:ef:3c:29:59 33:33:00:00:00:fb 3
+flood!
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 9 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 2 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 1 da:d1:ef:3c:29:59 33:33:00:00:00:fb 2
+flood!
+packet in 8 da:d1:ef:3c:29:59 33:33:00:00:00:fb 1
+flood!
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 2
+packet in 5 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 3
+packet in 6 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 4
+packet in 7 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 5
+packet in 11 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 2
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 1
+packet in 1 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 2
+packet in 5 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 3
+packet in 6 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 4
+packet in 7 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 5
+packet in 11 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 2
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 1
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 2
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 2
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 2
+packet in 9 a2:4a:5b:a4:db:20 33:33:00:00:00:fb 1
+flood!
+packet in 5 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 3
+packet in 6 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 4
+packet in 7 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 5
+packet in 11 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 2
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 1
+packet in 9 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 2
+flood!
+packet in 5 1a:af:77:8f:a7:72 33:33:00:00:00:fb 5
+flood!
+packet in 8 1a:af:77:8f:a7:72 33:33:00:00:00:fb 1
+flood!
+packet in 1 1a:af:77:8f:a7:72 33:33:00:00:00:fb 2
+flood!
+packet in 6 1a:af:77:8f:a7:72 33:33:00:00:00:fb 3
+flood!
+packet in 5 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 5
+flood!
+packet in 2 1a:af:77:8f:a7:72 33:33:00:00:00:fb 1
+flood!
+packet in 6 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 3
+flood!
+packet in 1 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 2
+flood!
+packet in 3 1a:af:77:8f:a7:72 33:33:00:00:00:fb 1
+flood!
+packet in 10 1a:af:77:8f:a7:72 33:33:00:00:00:fb 1
+flood!
+packet in 8 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 1
+flood!
+packet in 2 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 1
+flood!
+packet in 7 1a:af:77:8f:a7:72 33:33:00:00:00:fb 3
+flood!
+packet in 11 1a:af:77:8f:a7:72 33:33:00:00:00:fb 2
+flood!
+packet in 10 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 1
+flood!
+packet in 3 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 1
+flood!
+packet in 4 1a:af:77:8f:a7:72 33:33:00:00:00:fb 1
+flood!
+packet in 7 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 3
+flood!
+packet in 11 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 2
+flood!
+packet in 4 a2:21:0e:cc:59:fe 33:33:00:00:00:fb 1
+flood!
+packet in 7 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 4
+flood!
+packet in 11 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 2
+flood!
+packet in 4 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 6 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 4
+flood!
+packet in 5 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 3
+flood!
+packet in 3 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 10 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 8 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 1 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 2
+flood!
+packet in 9 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 2 e2:1c:2e:64:6e:0c 33:33:00:00:00:fb 1
+flood!
+packet in 11 6a:85:12:27:03:59 33:33:00:00:00:fb 2
+flood!
+packet in 10 ea:ff:ba:5a:37:c4 33:33:00:00:00:fb 1
+flood!
+packet in 1 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 1 de:ec:fb:49:36:b2 33:33:00:00:00:02 2
+flood!
+packet in 5 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 6 da:ce:97:3e:e1:eb 33:33:00:00:00:02 3
+flood!
+packet in 9 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 8 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 2 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 3 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 10 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 7 da:ce:97:3e:e1:eb 33:33:00:00:00:02 3
+flood!
+packet in 11 da:ce:97:3e:e1:eb 33:33:00:00:00:02 2
+flood!
+packet in 4 da:ce:97:3e:e1:eb 33:33:00:00:00:02 1
+flood!
+packet in 11 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 1
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 2
+packet in 7 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 5
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 6 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 4
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 3
+packet in 5 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 3
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 7a:18:1a:de:f2:4b da:ce:97:3e:e1:eb 2
+00-00-00-00-00-011
+00-00-00-00-00-01
+out_port: 1
+packet in 1 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 2
+packet in 5 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 1
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 3
+packet in 6 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 4
+packet in 7 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 3
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 5
+packet in 11 da:ce:97:3e:e1:eb 7a:18:1a:de:f2:4b 2
+00-00-00-00-00-01
+00-00-00-00-00-011
+out_port: 1
+
